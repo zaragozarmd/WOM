@@ -7,17 +7,28 @@
 //
 
 #import "ViewController.h"
+#import "API.h"
+#import "LoginViewController.h"
 
 @interface ViewController ()
+
 
 @end
 
 @implementation ViewController
+@synthesize username = _username;
+@synthesize password = _password;
+
+-(void)viewWillAppear:(BOOL)animated
+{
+
+}
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+
+
 }
 
 - (void)didReceiveMemoryWarning
